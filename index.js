@@ -5,12 +5,15 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-const i = 1;
+let i = 1;
  while (i <= line.length) {
   line.shift(line[0]);
-  return line[0];
   i ++; 
-  
+  return line[0];
+ }
+ 
+ if (line.length === 0){
+   return "THere is nobody waiting to be served!";
  }
     
 }
