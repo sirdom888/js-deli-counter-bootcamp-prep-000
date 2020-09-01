@@ -8,7 +8,7 @@ function nowServing(line){
 const i = 1;
  while i <= line.length; i +=1){
   return line[0];
-  
+  line.shift(line[0]);
  }
     
 }
