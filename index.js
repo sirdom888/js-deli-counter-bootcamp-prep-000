@@ -20,9 +20,9 @@ let i = 0;
 newLine = [];
 function currentLine(line){
  let i = 0;
- while (i < line.length); {
-  i++;
+ while (i < line.length) {
   newLine = line.push(` ` + [i + 1] + `. ` + line[i] );
+   i++;
  }
  
   if (line.length === 0){
