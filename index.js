@@ -5,5 +5,5 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-  
+ for (let i = 1; i < line.length; i +=1)
 }
