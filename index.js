@@ -13,7 +13,7 @@ let i = 1;
  }
  
  if (line.length === 0){
-   return "THere is nobody waiting to be served!";
+   return "There is nobody waiting to be served!";
  }
     
 }
