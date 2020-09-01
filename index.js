@@ -6,9 +6,10 @@ function takeANumber(line, name){
 
 function nowServing(line){
 const i = 1;
- while i <= line.length; i +=1){
-  return line[0];
+ while i <= line.length; {
   line.shift(line[0]);
+  return line[0];
+  
  }
     
 }
