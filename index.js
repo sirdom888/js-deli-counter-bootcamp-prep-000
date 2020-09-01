@@ -5,11 +5,7 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-let i = 0;
- while (i < line.length) {
-  return `Currently serving ${line[0]}`;
-  line.shift(line[i]);
-  i ++;
+  var newLine = line.shift()
   
   
  }
