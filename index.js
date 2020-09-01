@@ -5,8 +5,12 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-  var newLine = line.shift()
-  return `Currently serving ${newLine[0]}`;
+let i = 0;
+ while (i < line.length) {
+  return `Currently serving ${line[0]}`;
+  newPerson = line.shift(line[i]);
+  i ++;
+  
   
  }
  
