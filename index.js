@@ -17,7 +17,7 @@ let i = 0;
     
 }
 
- newLine = [];
+newLine = [];
 function currentLine(line){
  let i = 0;
  while (i < line.length); {
