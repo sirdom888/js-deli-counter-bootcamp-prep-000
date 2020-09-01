@@ -18,10 +18,16 @@ let i = 0;
 }
 
 function currentLine(line){
+ newLine = [];
+ let i = 0;
+ while (i < line.length); {
+  i++;
+  newLine = line.push(` ` + [i + 1] + `. ` + line[i] );
+ }
  
-  if (line.length > 0){
-    return `The line is currently: ${line.toString()}`;
+  if (line.length === 0){
+    return `The line is currently empty.`;
   }  else {
-    return "The line is currently empty.";
+    return (`The line is currently:` + newLine.toString);
   }
 }
