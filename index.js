@@ -17,8 +17,8 @@ let i = 0;
     
 }
 
-function currentLine(line){
  newLine = [];
+function currentLine(line){
  let i = 0;
  while (i < line.length); {
   i++;
