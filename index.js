@@ -28,6 +28,6 @@ function currentLine(line){
   if (line.length === 0){
     return `The line is currently empty.`;
   }  else {
-    return (`The line is currently:` + newLine.toString);
+    return (`The line is currently:` + newLine);
   }
 }
